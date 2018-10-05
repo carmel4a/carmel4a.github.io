@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://carmel4a.github.io/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://carmel4a.github.io/pl/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://carmel4a.github.io/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://carmel4a.github.io/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://carmel4a.github.io/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://carmel4a.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://carmel4a.github.io/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://carmel4a.github.io/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://carmel4a.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://carmel4a.github.io/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://carmel4a.github.io/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://carmel4a.github.io/"
+                />
+  </url>
+  
+</urlset>

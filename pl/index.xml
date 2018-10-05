@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>~Dev(b)log_PL</title>
+    <link>http://carmel4a.github.io/pl/</link>
+    <description>Recent content on ~Dev(b)log_PL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2018, all rights reserved.</copyright>
+    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://carmel4a.github.io/pl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O mnie</title>
+      <link>http://carmel4a.github.io/pl/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://carmel4a.github.io/pl/about/</guid>
+      <description>Geneza Cześć nazywan się Kamil Lewan, jestem plastykiem - programistom.
+Plastyk Ukończyłem Państwową Ogulnokształącą szkołę sztuk pięknych w Bydgoszczy. Swoje zainteresowania rozwijałem głównie w kierunku fotografii, malarstwa i grafiki wektorowej.
+W 2016 r. rozpocząłem edukacje w kierunku malarstwa sztalugowego na Uniwersytecie Mikołaja Kopernika w Toruniu.
+Po godzinach, hobbystycznie uczę się graiki 3D. Po godzinach, w
+Programista Nie licząc moich kompletnych początków edukacji &amp;ldquo;za dzieciaka&amp;rdquo; (MS Small Basic), programować &amp;ldquo;na poważnie&amp;rdquo; zacząłem kilka lat temu.</description>
+    </item>
+    
+  </channel>
+</rss>
