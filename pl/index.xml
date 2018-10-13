@@ -25,5 +25,23 @@ Po godzinach, hobbystycznie uczę się graiki 3D. Po godzinach, w
 Programista Nie licząc moich kompletnych początków edukacji &amp;ldquo;za dzieciaka&amp;rdquo; (MS Small Basic), programować &amp;ldquo;na poważnie&amp;rdquo; zacząłem kilka lat temu.</description>
     </item>
     
+    <item>
+      <title>Mój pierwszy post</title>
+      <link>http://carmel4a.github.io/pl/post/my-first-post/</link>
+      <pubDate>Mon, 17 Sep 2018 17:54:17 +0200</pubDate>
+      
+      <guid>http://carmel4a.github.io/pl/post/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;header&#34;&gt;Header&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zaczynamy</title>
+      <link>http://carmel4a.github.io/pl/post/zaczynamy/</link>
+      <pubDate>Mon, 17 Sep 2018 17:54:17 +0200</pubDate>
+      
+      <guid>http://carmel4a.github.io/pl/post/zaczynamy/</guid>
+      <description> Zaczynamy </description>
+    </item>
+    
   </channel>
 </rss>
