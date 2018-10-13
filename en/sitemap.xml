@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>http://carmel4a.github.io/post/my-first-post/</loc>
+    <lastmod>2018-09-17T17:54:17+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://carmel4a.github.io/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -30,6 +35,12 @@
                 hreflang="en"
                 href="http://carmel4a.github.io/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://carmel4a.github.io/post/</loc>
+    <lastmod>2018-09-17T17:54:17+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
