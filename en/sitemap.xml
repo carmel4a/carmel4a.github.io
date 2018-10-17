@@ -79,7 +79,56 @@
   </url>
   
   <url>
+    <loc>http://carmel4a.github.io/tags/tag-1/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://carmel4a.github.io/pl/tags/tag-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://carmel4a.github.io/tags/tag-1/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://carmel4a.github.io/tags/tag-2/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://carmel4a.github.io/pl/tags/tag-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://carmel4a.github.io/tags/tag-2/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://carmel4a.github.io/tags/tag-3/</loc>
+    <lastmod>2018-09-17T17:54:17+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://carmel4a.github.io/pl/tags/tag-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://carmel4a.github.io/tags/tag-3/"
+                />
+  </url>
+  
+  <url>
     <loc>http://carmel4a.github.io/tags/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
