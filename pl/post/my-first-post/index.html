@@ -18,7 +18,7 @@
 <meta property="og:description" content="Header" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://carmel4a.github.io/pl/post/my-first-post/" /><meta property="article:published_time" content="2018-09-17T17:54:17&#43;02:00"/>
-<meta property="article:modified_time" content="2018-09-17T17:54:17&#43;02:00"/><meta property="og:site_name" content="~Dev(b)log_PL" />
+<meta property="article:modified_time" content="2018-09-17T17:54:17&#43;02:00"/>
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mój pierwszy post"/>
@@ -78,7 +78,10 @@ th {
 }
 
 .siteTitle a { color: #CFEE9E; }
-
+.siteSubTitle a {
+	color: #CFEE9E;
+	text-decoration: none; }
+}
 .post .content h1{ color: #CFEE9E; }
 .post .content h2{ color: #CFEE9E; }
 .post .content h3{ color: #CFEE9E; }
@@ -133,48 +136,85 @@ hr
 				<div class="header-bar">
 					<nav>
 						<div class="siteTitle">
-							<a href="http://carmel4a.github.io//pl">~Dev(b)log_PL</a>
+							<a href="http://carmel4a.github.io//pl">~Log</a>
 						</div> 
-						
-						
-						
-							<a class="nav-item"
+						<div class="siteSubTitle">
+							<a href="http://carmel4a.github.io//pl">Kamil Lewan&#39;s personal blog</a>
+						</div> 
+						<div class="main-pages-menu" id="main-pages-menu">
+							<hr>
 							
-								href="/pl//post/"
 							
-							>
-								<div class="nav-item-title">
-									Posty
-								</div>
-							</a>
-						
-							<a class="nav-item"
 							
-								href="/pl//tags/"
+								<a class="nav-item"
+								
+									href="/pl//post/"
+								
+								>
+									<div class="nav-item-title">
+										Posty
+									</div>
+								</a>
 							
-							>
-								<div class="nav-item-title">
-									Tagi
-								</div>
-							</a>
-						
-							<a class="nav-item"
+								<a class="nav-item"
+								
+									href="/pl//tags/"
+								
+								>
+									<div class="nav-item-title">
+										Tagi
+									</div>
+								</a>
 							
-								href="/pl//about"
+								<a class="nav-item"
+								
+									href="/pl//about"
+								
+								>
+									<div class="nav-item-title">
+										O mnie
+									</div>
+								</a>
 							
-							>
-								<div class="nav-item-title">
-									O mnie
-								</div>
-							</a>
-						
-						
+							<hr>
+						</div>
+						<a
+	class="menu-icon"
+	href="#"
+	onclick="clicked_menu_icon()">
+
+	<img
+		src="/if_menu-alt_134216.svg"
+		class="menu-icon-content"
+		alt="Menu"></img>
+</a>
+
+<script>
+function clicked_menu_icon()
+{
+	var x = document.getElementById( "main-pages-menu" );
+	var y = document.getElementById( "soc_links" );
+	
+	if (x.className === "main-pages-menu") {
+		x.className += " showed";
+	} else {
+		x.className = "main-pages-menu";
+	}
+	if (y.className === "social-links-links main-pages-menu") {
+		y.className += " showed";
+	} else {
+		y.className = "social-links-links main-pages-menu";
+	}
+	
+}
+</script>
+
 					</nav>
 				</div> 
 
 				
 <div class="social-links-header">	
-	<div class="social-links-links">
+	<div class="social-links-links main-pages-menu" id="soc_links">
 		
 			<a href="mailto:kamil.lewan97@gmail.com">
 				<div class="social-link">

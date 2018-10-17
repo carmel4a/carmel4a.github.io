@@ -17,7 +17,7 @@
 	<meta property="og:title" content="404 Page not found" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="" /><meta property="og:site_name" content="~Dev(b)log_EN" />
+<meta property="og:url" content="" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="404 Page not found"/>
@@ -69,7 +69,10 @@ th {
 }
 
 .siteTitle a { color: #CFEE9E; }
-
+.siteSubTitle a {
+	color: #CFEE9E;
+	text-decoration: none; }
+}
 .post .content h1{ color: #CFEE9E; }
 .post .content h2{ color: #CFEE9E; }
 .post .content h3{ color: #CFEE9E; }
@@ -124,48 +127,85 @@ hr
 				<div class="header-bar">
 					<nav>
 						<div class="siteTitle">
-							<a href="http://carmel4a.github.io//en">~Dev(b)log_EN</a>
+							<a href="http://carmel4a.github.io//en">~Log</a>
 						</div> 
-						
-						
-						
-							<a class="nav-item"
+						<div class="siteSubTitle">
+							<a href="http://carmel4a.github.io//en">Kamil Lewan&#39;s personal blog</a>
+						</div> 
+						<div class="main-pages-menu" id="main-pages-menu">
+							<hr>
 							
-								href="/post/"
 							
-							>
-								<div class="nav-item-title">
-									Posts
-								</div>
-							</a>
-						
-							<a class="nav-item"
 							
-								href="/tags/"
+								<a class="nav-item"
+								
+									href="/post/"
+								
+								>
+									<div class="nav-item-title">
+										Posts
+									</div>
+								</a>
 							
-							>
-								<div class="nav-item-title">
-									Tags
-								</div>
-							</a>
-						
-							<a class="nav-item"
+								<a class="nav-item"
+								
+									href="/tags/"
+								
+								>
+									<div class="nav-item-title">
+										Tags
+									</div>
+								</a>
 							
-								href="/about"
+								<a class="nav-item"
+								
+									href="/about"
+								
+								>
+									<div class="nav-item-title">
+										About
+									</div>
+								</a>
 							
-							>
-								<div class="nav-item-title">
-									About
-								</div>
-							</a>
-						
-						
+							<hr>
+						</div>
+						<a
+	class="menu-icon"
+	href="#"
+	onclick="clicked_menu_icon()">
+
+	<img
+		src="/if_menu-alt_134216.svg"
+		class="menu-icon-content"
+		alt="Menu"></img>
+</a>
+
+<script>
+function clicked_menu_icon()
+{
+	var x = document.getElementById( "main-pages-menu" );
+	var y = document.getElementById( "soc_links" );
+	
+	if (x.className === "main-pages-menu") {
+		x.className += " showed";
+	} else {
+		x.className = "main-pages-menu";
+	}
+	if (y.className === "social-links-links main-pages-menu") {
+		y.className += " showed";
+	} else {
+		y.className = "social-links-links main-pages-menu";
+	}
+	
+}
+</script>
+
 					</nav>
 				</div> 
 
 				
 <div class="social-links-header">	
-	<div class="social-links-links">
+	<div class="social-links-links main-pages-menu" id="soc_links">
 		
 			<a href="mailto:kamil.lewan97@gmail.com">
 				<div class="social-link">
@@ -231,7 +271,7 @@ hr
       </article></li>
   
       <li><article itemscope itemtype="http://schema.org/Blog">
-          <a href="http://carmel4a.github.io/">~Dev(b)log_EN</a>
+          <a href="http://carmel4a.github.io/">~Log</a>
       </article></li>
   
   </ul>
